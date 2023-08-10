@@ -1,0 +1,59 @@
+<div style="padding: 10px;">
+  <button ejs-button content="Add Node" (click)="addNode()"></button>
+  <button ejs-button content="Draw Node" (click)="drawNode()"></button>
+  <button ejs-button content="Edit Node" (click)="editNode()"></button>
+  <button ejs-button content="Remove Node" (click)="removeNode()"></button>
+  <ejs-diagram #diagram
+    width="1000"
+    height="580px">
+    <e-nodes>
+      <e-node id="basicNode"
+        [offsetX]="150"
+        [offsetY]="150"
+        [height]="150"
+        [width]="150"
+        [style]="basicStyle">
+        <e-node-annotations>
+          <e-node-annotation content="Basic Node"></e-node-annotation>
+        </e-node-annotations>
+      </e-node>
+      <e-node id="textNode"
+        [offsetX]="350"
+        [offsetY]="150"
+        [height]="150"
+        [width]="150"
+        [style]="textStyle"
+        [shape]="textShape">
+      </e-node>
+      <e-node id="imageNode"
+        [offsetX]="550"
+        [offsetY]="150"
+        [height]="150"
+        [width]="150"
+        [shape]="imageShape">
+      </e-node>
+      <e-node id="htmlNode"
+        [offsetX]="750"
+        [offsetY]="175"
+        [height]="150"
+        [width]="150"
+        [shape]="htmlShape">
+      </e-node>
+      <e-node id="pathNode"
+        [offsetX]="350"
+        [offsetY]="350"
+        [height]="150"
+        [width]="150"
+        [shape]="pathShape">
+      </e-node>
+      <e-node id="svgNode"
+        [offsetX]="750"
+        [offsetY]="350"
+        [height]="150"
+        [width]="150"
+        [shape]="svgShape">
+      </e-node>
+    </e-nodes>
+  </ejs-diagram>
+</div>
+
