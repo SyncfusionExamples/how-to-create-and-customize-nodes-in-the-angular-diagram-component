@@ -2,7 +2,7 @@
 
 A quick start Angular project that shows how to create a node and different types of node shapes in an Angular Diagram. This project includes a code snippet to create a node programmatically and using the drawing tool. It also includes a code snippet to create different types of node shapes like text, image, path, HTML template, etc.
 
-Refer to the node documentation on the Syncfusion Angular Diagram component: 
+Refer to the node documentation on the Syncfusion&reg; Angular Diagram component: 
 https://ej2.syncfusion.com/angular/documentation/diagram/nodes 
 
 Check out this online node example of the Angular Diagram component: 
