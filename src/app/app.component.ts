@@ -1,12 +1,14 @@
 import { Component, ViewEncapsulation, ViewChild } from '@angular/core';
 import { Diagram, DiagramComponent, DiagramTools, NodeModel, ShapeStyleModel,TextModel, ImageModel, 
-  PathModel, HtmlModel, NativeModel } from '@syncfusion/ej2-angular-diagrams';
+  PathModel, HtmlModel, NativeModel,DiagramModule } from '@syncfusion/ej2-angular-diagrams';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
-  encapsulation: ViewEncapsulation.None
+  encapsulation: ViewEncapsulation.None,
+  standalone: true,
+  imports:[DiagramModule]
 })
 
 export class AppComponent {
